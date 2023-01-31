@@ -1,0 +1,305 @@
+section.header_home{
+	width: 100%;
+	height: 47vw;
+    background: #EF4036 url("../imagens/capa.png");
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    background-position: bottom;
+	font-weight: 300;
+	padding: 100px 2% 0 2%;
+}
+
+.teste{
+	position: fixed;
+	width: 65px;
+	height: 1000px;
+	float: left;
+	background-color: black;
+	display: none;
+}
+
+.chamada1{
+	width: 50%;
+	max-width: 650px;
+	float: left;
+	margin-top: 10%;
+}
+
+.chamada1 h2{
+	font-weight: bold;
+	font-size: 4vw;
+	color: white;
+	font-family: 'Cabin', spartan_mbbold;
+}
+
+.chamada1 p{
+	font-size: 15px;
+	color: white;
+	margin-top: 10px;
+}
+
+.img_chamada1{
+	float: right;
+	width: 40%;
+	height: 100%;
+}
+
+.img_chamada1 img{
+	height: 95%;
+}
+
+section.sessao1{
+	width: 100%;
+	margin: 0 auto;
+    padding: 50px 2%;
+}
+
+section.sessao1 .part1{
+    float: left;
+    width: 30%;
+    padding: 50px 0;
+}
+
+section.sessao1 h2{
+    color: #EF4036;
+	font-family: 'Cabin', spartan_mbbold;
+}
+
+section.sessao1 .part2{
+    float: right;
+    width: 70%;
+}
+
+div.part2 .div_beneficio{
+    width: 50%;
+    float: left;
+    margin-top: 35px;
+}
+
+div.part2 .div_beneficio .img_beneficio{
+    float: left;
+    margin: 0 25px;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
+    width: 65px;
+    height: 65px;
+    border-radius: 10%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div.part2 .div_beneficio .img_beneficio img{
+    width: 30px;
+}
+
+div.part2 .div_beneficio .text_beneficio{
+    float: left;
+    width: 70%;
+	color: #999;
+}
+
+section.sessao2{
+    width: 100%;
+    padding: 50px 2%;
+    background-color: #EF4036;
+	color: #FFF;
+}
+
+section.sessao2 h2{
+	font-family: 'Cabin', spartan_mbbold;
+	font-size: 44px;
+}
+
+section.sessao2 .part1{
+	text-align: center;
+}
+
+section.sessao2 .part2{
+	width: 100%;
+	margin: 0 auto;
+}
+
+section.sessao2 .part2 div{
+	float: left;
+	width: 25%;
+	margin-top: 25px;
+	text-align: center;
+}
+
+section.sessao2 .part2 h2{
+	font-size: 4em;
+}
+
+section.sessao2 .part2 span{
+	font-size: 18px;
+	font-family: 'Cabin', spartan_mbbold;
+}
+
+section.sessao3{
+    width: 100%;
+    padding: 50px 2%;
+}
+
+section.sessao3 h2{
+	font-family: 'Cabin', spartan_mbbold;
+}
+
+section.sessao3 > div{
+    text-align: center;
+}
+
+section.sessao3 form input[type=text]{
+	width: 90%;
+	max-width: 480px;
+	margin-top:8px;
+	height: 58px;
+	padding-left: 8px;
+	line-height: 58px;
+	border: 1px solid rgb(200,200,200);
+	border-radius: 29px;
+}
+
+section.sessao3 form input[type=submit]{
+	border: 0;
+    background-color: #EF4036;
+	width: 165px;
+	height: 44px;
+	font-size: 13px;
+	color: white;
+	cursor: pointer;
+	margin-top:15px;
+	border-radius: 30px;
+	font-family: 'Cabin', spartan_mbbold;
+}
+
+section.sessao4{
+    padding: 50px 2%;
+    background-color: #EF4036;
+	color: #FFF;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section.sessao4 .btn_catalogo{
+	width: 50%;
+	margin: 0 auto;
+	background-color: red;
+	height: 50px;
+	margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
+}
+
+section.sessao4 h2{
+	font-size: 35px;
+}
+
+section.sessao4 a{
+	text-decoration: none;
+	color: #FFF;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 1160px){
+	section.sessao1 .part1{
+	    width: 20%;
+	}
+
+	section.sessao1 .part2{
+	    width: 80%;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	section.sessao1 .part1{
+	    width: 30%;
+	}
+
+	section.sessao1 .part2{
+	    width: 70%;
+	}
+
+	div.part2 .div_beneficio{
+	    width: 100%;
+	    float: none;
+	    display: inline-block;
+	}
+}
+
+@media screen and (max-width: 900px){
+	section.sessao2 .part2 div{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	section.header_home{
+		height: 100%;
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	    background-position: bottom;
+	}
+
+	.chamada1{
+		width: 100%;
+		height: 20%;
+		float: none;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.img_chamada1{
+		float: none;
+		width: 100%;
+		height: 80%;
+		text-align: center;
+		display: inline-block;
+	}
+
+	.img_chamada1 img{
+		height: 100%;
+	}
+
+	section.sessao1 .part1{
+	    width: 100%;
+	    float: none;
+	    display: inline-block;
+	    text-align: center;
+	    padding: 25px 0;
+	}
+
+	section.sessao1 .part2{
+	    width: 100%;
+	    float: none;
+	    display: inline-block;
+	}
+}
+
+@media screen and (max-width: 580px){
+	section.header_home{
+		height: 70%;
+	}
+
+	div.part2 .div_beneficio .img_beneficio{
+	    margin: 0 10px;
+	}
+
+	section.sessao2 .part2 div{
+		width: 100%;
+		float: none;
+		display: inline-block;
+	}
+}

@@ -1,0 +1,148 @@
+header.header{
+	width: 100%;
+	padding: 30px 2% 20px 2%;
+    background-color: #EF4036;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	position: fixed;
+}
+
+header.header .logo{
+	position: relative;
+	top: -10px;
+	float: left;
+	width: 200px;
+	height: 50px;
+	background-image: url('../imagens/logoWhite.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+header.header nav{
+	float: left;
+	margin-left: 2%;
+}
+
+header.header nav a{
+	font-weight: 400;
+}
+
+header.header nav.desktop-menu{
+	margin-top: 10px;
+}
+
+header.header nav.desktop-menu ul li:hover{
+	/*background-color: green;*/
+}
+
+header.header nav.desktop-menu ul{
+	list-style-type: none;
+}
+
+header.header nav.desktop-menu li{
+	float: left;
+	padding:0 20px;
+}
+
+header.header nav.desktop-menu li a{
+	text-decoration: none;
+	color: white;
+}
+
+header.header nav.mobile-menu{
+	margin-top: 10px;
+	float: right;
+	cursor: pointer;
+	display: none;
+	width: 32px;
+	height: 32px;
+	background-image: url('../imagens/menu.png');
+	background-size: 100% 100%;
+}
+
+header.header nav.mobile-menu ul{
+	display: none;
+	background-color: white;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 80px;
+	list-style-type: none;
+	text-align: center;
+}
+
+header.header nav.mobile-menu ul li{
+	transition: 0.4s;
+	border-bottom: 0.5px solid black;
+}
+
+header.header nav.mobile-menu ul li:hover{
+	background-color: #EF4036;
+}
+
+header.header nav.mobile-menu ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+header.header nav.mobile-menu ul li a div{
+	width: 100%;
+	padding: 8px 0;
+}
+
+header.header div.btn_catalogo_menu{
+	float: right;
+	padding: 10px;
+	background-color: #FFF;
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.50);
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.50);
+}
+
+header.header div.btn_catalogo_menu a{
+	text-decoration: none;
+	color: #000;
+}
+
+header.menu-auxiliar{
+	background-color: #FFF;
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.50);
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.50);
+}
+
+header.menu-auxiliar .logo{
+	background-image: url('../imagens/LogoVermelha.png');
+}
+
+header.menu-auxiliar nav.desktop-menu li a{
+	text-decoration: none;
+	color: #EF4036;
+}
+
+header.menu-auxiliar nav.mobile-menu{
+	background-image: url('../imagens/menuVermelho.png');
+}
+
+header.menu-auxiliar div.btn_catalogo_menu{
+	background-color: #EF4036;
+}
+
+header.menu-auxiliar div.btn_catalogo_menu a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+@media screen and (max-width: 990px){
+	header.header nav.desktop-menu{
+		display:none;
+	}
+	header.header div.btn_catalogo_menu{
+		display:none;
+	}
+
+	header.header nav.mobile-menu{
+		display: block;
+	}
+}

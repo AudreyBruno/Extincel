@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Cabin', spartan_mbbold;
+}
+
+html,body{
+	height: 100%;
+}
+
+.container{
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+.emailBoot{
+	display: none;
+}
+
+.facebook:hover {
+    color: #0077e2;
+}
+
+.instagram:hover {
+    color: purple;
+}
+
+.whatsapp:hover {
+    color: green;
+}
+
+.top{
+	height: 100px;
+}
