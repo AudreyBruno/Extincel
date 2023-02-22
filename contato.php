@@ -169,7 +169,7 @@
 	    				<div class="parts"><img src="imagens/icons/email.png"></div>
 	    				<div class="parts">
 	    					<h2>Email</h2>
-	    					<p>extincel@extintores.com.br</p>
+	    					<p>extincel@extincel.com.br</p>
 	    				</div>
 	    				<div class="clear"></div>
 	    			</div>
@@ -224,7 +224,7 @@
 						<div>Rua Jairo Giordani, 148</div>
 						<div>Bairro Imaribo - Parque Industrial</div>
 						<div>85550-000</div>
-						<div>extincel@extintores.com.br</div>
+						<div>extincel@extincel.com.br</div>
 						<div>(46) 3232-1058</div>
 					</div>
 					<div class="col">
